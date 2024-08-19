@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logo img {
+    height: 20px; /* Adjust size as needed */
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    flex: 1;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.nav-button {
+    background-color: hsl(136, 65%, 51%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 46%;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+.bg-right {
+    background-image: url('images/bg-intro-desktop.svg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 600px; /* Make sure the column takes full height */
+  }
+
+  .overlay-image {
+    position: absolute;
+    top: 10%; /* Adjust as needed */
+    right: 10%; /* Adjust as needed */
+    max-width: 80%; /* Adjust as needed */
+  }
+  .Hero-text{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  footer{
+    background-color: hsl(233, 26%, 24%);
+  }
+.fot-button{
+    background-color: hsl(136, 65%, 51%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40%;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
